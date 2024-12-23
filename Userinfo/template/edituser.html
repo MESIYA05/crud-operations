@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edituser</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'secondapp/edit.css'%}">
+</head>
+<body>
+    <h1>Edit user</h1>
+    <form method="POST" >
+      {% csrf_token %}
+    
+       Name:<input type="text" id="Fullname" name="Fullname" value="{{user.Fullname}}"><br><br><br>
+     
+      Email: <input type="email" id="Email" name="Email" value="{{user.Email}}"><br><br><br>
+       DOB:<input type="text" id="Dob" name="Dob" value="{{user.Dob}}"><br><br><br>
+       PASSWORD:<input type="text" id="Password" name="Password" value="{{user.Password}}"><br><br><br>
+      STATUS: <input type="text" id="Status" name="Status" value="{{user.Status}}"><br><br><br>
+      <input type="submit" value="save" class="button">
+    
+    </form>
+</body>
+</html>

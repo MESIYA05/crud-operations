@@ -1,0 +1,35 @@
+.btn1{
+    border-radius: 8px;
+    color: blue;
+    border: 1px solid blue;
+    padding-top: 5px;
+}
+.btn2 svg{
+    height: 20px;
+    
+}
+.btn2{
+    border-radius: 8px;
+    color:red;
+    border: 1px solid red;
+    padding-top: 5px;
+}
+#h11{
+    color: #fff;
+    margin-left: 600px;
+}
+.bttn{
+    color: #fff;
+    background-color: rgba(2, 120, 255, 0.995);
+    border-radius: 2px;
+   padding-left: 108px;
+   padding-right: 106px;
+   border: 1px solid purple;
+   height: 30px;
+   
+}
+.anh{
+/* padding-left: 500px; */
+position: absolute;
+left: 1190px;
+}

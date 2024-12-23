@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add user</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'secondapp/add.css' %}">
+</head>
+<body>
+   
+  <div class="parant">
+    <div class="child">
+        <h1>ADD USERS</h1>
+        <form method="POST">
+            {% csrf_token %}
+            {{formss.as_p}}
+            <input type="submit" value="Save" class="button">
+        </form>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(178, 18, 157);
+    color: #fff;
+}
+button{
+    border-radius: 5px;
+    
+}
+.back{
+    color: blue;
+    background-color: aliceblue;
+    padding: 4px 20px;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+.back:hover{
+    color: #fff;
+    background-color: blue;
+    transition: 1s ease-out;
+}
+.delete{
+    color: red;
+    background-color: #fff;
+    padding: 4px 20px;
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    
+}
+.delete:hover{
+    color: #fff;
+    background-color: red;
+    transition: 1s ease;
+}
+h2{
+    text-align: center;
+}

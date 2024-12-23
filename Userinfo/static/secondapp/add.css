@@ -1,0 +1,29 @@
+/* .........add.css......... */
+body{
+    background-color: rgb(4, 63, 72);
+    color: #fff;
+}
+.child h1{
+    color: #fff;
+    text-align: center;
+}
+input{
+    border-radius: 4px;
+}
+form{
+    border: 2px solid white;
+    padding: 50px 30px;
+    position: absolute;
+    margin-top: 50px;
+    left: 600px;
+    width: 270px;
+}
+.button{
+    margin-left: 80px;
+    width: 100px;
+}
+.button:hover{
+    background-color: blue;
+    color: #fff;
+    transition: 1s ease-in-out;
+}
